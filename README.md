@@ -99,7 +99,7 @@ This step would run our Pre-classifier Alignment (PA) procedure per task to adap
     Figure 3. Cross-domain Few-shot Learning with <b>Task-specific Adapters (TSA)</b>.
 </p>
 
-We provide code for attaching task-specific adapters (TSA) to a single universal network learned from meta-train and learn the task-specific adapters on the support set. One can download our [pre-trained URL model](https://drive.google.com/file/d/1Dv8TX6iQ-BE2NMpfd0sQmH2q4mShmo1A/view?usp=sharing) (see [here](#train-the-universal-representation-learning-network-\\\(url\\\)) to download the URL or SDL models or train them from scratch) and evaluate its feature adapted by residual adapters in matrix form and pre-classifier alignment, run:
+We provide code for attaching task-specific adapters (TSA) to a single universal network learned from meta-train and learn the task-specific adapters on the support set. One can download our [pre-trained URL model](https://drive.google.com/file/d/1Dv8TX6iQ-BE2NMpfd0sQmH2q4mShmo1A/view?usp=sharing) (see [here](<#train-the-universal-representation-learning-network-(url)>) to download the URL or SDL models or train them from scratch) and evaluate its feature adapted by residual adapters in matrix form and pre-classifier alignment, run:
 ```
 ./scripts/test_resnet18_tsa.sh
 ```
